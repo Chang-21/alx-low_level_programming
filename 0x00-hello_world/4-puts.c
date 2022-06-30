@@ -1,8 +1,10 @@
 #include <studio.h>
-/*
- * main- entry point
- *
- * return: sucess
+
+/**
+ * main - print the string in the put function
+ * description: using the main function
+ * this programm prints "Programming is like building a multilingual puzzle
+ * return: 0
  */
 int main(void)
 {
