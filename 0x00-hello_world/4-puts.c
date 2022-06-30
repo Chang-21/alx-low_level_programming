@@ -1,5 +1,5 @@
 #include <studio.h>
-/**
+/*
  * main- entry point
  * return: sucess
  */
