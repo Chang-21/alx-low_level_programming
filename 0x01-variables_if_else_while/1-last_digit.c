@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - the programm gives different values of nat its last digit.
- *
+ * main - this is the main project function
+ * the programs prints the last digits of n
  * return: Always 0 (Success)
  */
 int main(void)
