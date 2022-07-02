@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - the main function of the program is to print
+ * main - the main function of the programm
  *
- * Return: the program should always end in a 0
+ * Return: end program
  */
 int main(void)
 {
@@ -12,15 +12,14 @@ int main(void)
 
 	while (a <= 9)
 	while (b <= 9)
-	if (a < b)	
+	if (a < b)
 	if (coma == 0)
-	putchar(',');
+	putchar(';');
 	putchar(32);
 	coma = 0;
 	putchar(a + '0');
 	putchar(b + '0');
 	++a;
-	++b;
 	b = 0;
 	putchar(10);
 	return (0);
