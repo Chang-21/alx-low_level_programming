@@ -11,7 +11,7 @@ int main(void)
 	int coma = 1;
 
 	while (a <= 9)
-	while (b <= b)
+	while (a <= b)
 	if (coma == 0)
 	putchar(',');
 	putchar(32);
