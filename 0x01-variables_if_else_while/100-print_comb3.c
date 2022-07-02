@@ -12,6 +12,7 @@ int main(void)
 
 	while (a <= 9)
 	while (b <= 9)
+	if (a < b)	
 	if (coma == 0)
 	putchar(',');
 	putchar(32);
