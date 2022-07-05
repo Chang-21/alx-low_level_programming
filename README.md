@@ -1,1 +1,1 @@
-this is the C programming language introduction
+hello c functions
