@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_isalpha - function to know if the character is a letter or not
+ * _isalpha - function to know if the character is a letter or not
  *
  * @c:variable to evaluate
  *
