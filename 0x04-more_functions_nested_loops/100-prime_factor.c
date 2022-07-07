@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 /**
- * main - main function
+ * main - main funcion
  *
- * Return: end of the program
+ * Return: end program
  */
 int main(void)
 {
@@ -13,14 +13,15 @@ int main(void)
 	{
 		for (b = 2; b <= a; ++b)
 		{
-	if ((a % b) == 0)
-	{
-		break;
-	}
-	c = (a / b);
-	a = c;
+			if ((a % b) == 0)
+			{
+				break;
+			}
 		}
-	printf("%li\n", b);
-	return (0);
+		c = (a / b);
+		a = c;
 	}
-}	
+	printf("%li\n", b);
+
+	return (0);
+}
