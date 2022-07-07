@@ -8,11 +8,11 @@ void more_numbers(void)
 	int l = 0;
 	int reset = 0;
 
-	while (1 < 10)
+	while (l < 10)
 	{
 		while (n <= 62)
 		{
-			if (n <= 57)
+			if (n > 57)
 			{
 				reset = 10;
 				_putchar(49);
