@@ -1,20 +1,24 @@
 #include "main.h"
 /**
- * print_array - function
+ * *_strcpy - function
  *
- * @a: pointer of parameter
- * @n: parameter
+ * @dest: pointer of parameter
+ * @src: pointer of parameter
+ *
+ * Return: return dest value
  */
-void print_array(int *a, int n)
+char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
+	int srcLength = 0;
 
-	if (n > 0)
-	{
-		while (i < n - 1)
-			printf("%d, ", a[i++]);
-		printf("%d\n", a[i]);
-	}
-	else
-		printf("\n");
+	while (dest[i] != '\0')
+		dest[i++] = '\0';
+	i = 0;
+	while (src[srcLength] != '\0')
+		srcLength++;
+	for (i = 0; i < srcLength; i++)
+		dest[i] = src[i];
+	dest[srcLength] = '\0';
+	return (dest);
 }
