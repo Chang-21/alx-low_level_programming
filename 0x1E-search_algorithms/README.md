@@ -10,14 +10,14 @@
 prototypes
 | Number | Prototype |
 | ------ | --------- |
-| (0-linear.c) | int linear_search(int *array, size_t size, int value); |
-| (1-binary.c) | int binary_search(int *array, size_t size, int value); |
-| (100-jump.c) | int jump_search(int *array, size_t size, int value); |
-| (102-interpolation.c) | int interpolation_search(int *array, size_t size, int value); |
-| (103-exponential.c) | int exponential_search(int *array, size_t size, int value); |
-| (104-advanced_binary.c) | int advanced_binary(int *array, size_t size, int value); |
-| (105-jump_list.c) | listint_t *jump_list(listint_t *list, size_t size, int value); |
-| (106-linear_skip.c) | skiplist_t *linear_skip(skiplist_t *list, int value); |
+| [0. Linear search](0-linear.c) | int linear_search(int *array, size_t size, int value); |
+| [1. Binary search](1-binary.c) | int binary_search(int *array, size_t size, int value); |
+| [7. Jump search](100-jump.c) | int jump_search(int *array, size_t size, int value); |
+| [9. Interpolation search](102-interpolation.c) | int interpolation_search(int *array, size_t size, int value); |
+| [10. Exponential search](103-exponential.c) | int exponential_search(int *array, size_t size, int value); |
+| [11. Advanced binary search](104-advanced_binary.c) | int advanced_binary(int *array, size_t size, int value); |
+| [12. Jump search in a singly linked list](105-jump_list.c) | listint_t *jump_list(listint_t *list, size_t size, int value); |
+| [13. Linear search in a skip list](106-linear_skip.c) | skiplist_t *linear_skip(skiplist_t *list, int value); |
 
 
 
@@ -137,6 +137,6 @@ Write a function that searches for a value in a sorted skip list of integers.
  [15. Big O #7](108-0)
  What is the time complexity (average case) of a jump search in a skip list of size n, with an express lane using step = sqrt(n)?
 
-[search_algo.h](search_algos.h)
+[search_algo.h](search_algos.h) prototypes.h
 
 
