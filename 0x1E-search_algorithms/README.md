@@ -1,17 +1,24 @@
 # 0x1E. C - Search Algorithms
-#### C #### Algorithm
+#### C  Algorithm
 
 
 ## RESOURCES
-[ + Search algorithm](https://intranet.alxswe.com/rltoken/ap2kuRv8qrUMyQ0-MY3EXw)
-[ + Search complexity(1)](https://intranet.alxswe.com/rltoken/QK9ENdoTyqGs0d4_M3XE3g)
++ [Search algorithm](https://intranet.alxswe.com/rltoken/ap2kuRv8qrUMyQ0-MY3EXw)
++ [Search complexity(1)](https://intranet.alxswe.com/rltoken/QK9ENdoTyqGs0d4_M3XE3g)
 
 
 prototypes
 | Number | Prototype |
 | ------ | --------- |
-| 0-linear.c | int linear_search(int *array, size_t size, int value); |
-| 0-linear.c)| int linear_search(int *array, size_t size, int value); |
+| (0-linear.c) | int linear_search(int *array, size_t size, int value); |
+| (1-binary.c) | int binary_search(int *array, size_t size, int value); |
+| (100-jump.c) | int jump_search(int *array, size_t size, int value); |
+| (102-interpolation.c) | int interpolation_search(int *array, size_t size, int value); |
+| (103-exponential.c) | int exponential_search(int *array, size_t size, int value); |
+| (104-advanced_binary.c) | int advanced_binary(int *array, size_t size, int value); |
+| (105-jump_list.c) | listint_t *jump_list(listint_t *list, size_t size, int value); |
+| (106-linear_skip.c) | skiplist_t *linear_skip(skiplist_t *list, int value); |
+
 
 
 ## TASKS
